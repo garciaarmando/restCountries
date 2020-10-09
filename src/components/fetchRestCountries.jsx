@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/fetchRestCountries.css";
-import NavBar from "./NavBar";
-import SearchBar from "./SearchBar";
+import NavBar from "./NavBar.jsx";
+import SearchBar from "./SearchBar.jsx";
 
 class FetchRestCountries extends React.Component {
   constructor(props) {
