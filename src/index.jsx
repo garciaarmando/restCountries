@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-// import App from "./App";
-import FetchRestCountries from "./components/fetchRestCountries";
+import App from "./App";
+// import FetchRestCountries from "./components/fetchRestCountries";||
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <FetchRestCountries />
+    <App />
+    {/* <FetchRestCountries /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
