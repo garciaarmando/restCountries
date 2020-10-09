@@ -6,7 +6,7 @@ class Navbar extends React.Component {
     return (
       <div className="Navbar">
         <div className="container-fluid">
-          <span className="font-weight-light"> REST COUNTRIES </span>
+          <span className="font-weight-light"> REST COUNTRIES API </span>
         </div>{" "}
       </div>
     );
