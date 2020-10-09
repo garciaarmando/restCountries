@@ -1,10 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
 import FetchRestCountries from "./components/fetchRestCountries";
+// import SearchBar from "./components/SearchBar";
 
 function App() {
   return <FetchRestCountries />;
+  // return <SearchBar />;
 }
 
 export default App;

@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/fetchRestCountries.css";
-import NavBar from "./Navbar";
+import NavBar from "./NavBar";
+import SearchBar from "./SearchBar";
 
 class FetchRestCountries extends React.Component {
   constructor(props) {
@@ -41,6 +42,7 @@ class FetchRestCountries extends React.Component {
       return (
         <React.Fragment>
           <NavBar />
+          <SearchBar />
           <ul className="countriesList">
             {items.map((item) => (
               <li key={item.name}>

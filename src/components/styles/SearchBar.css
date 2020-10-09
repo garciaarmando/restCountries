@@ -1,0 +1,18 @@
+.searchBar__container {
+    width: 70%;
+    height: 2.5em;
+    margin: 0 auto;
+    margin-top: 2em;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: inherit;
+    border-radius: 15px;
+    border-color: black;
+    text-align: center;
+    outline: none;
+}
